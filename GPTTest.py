@@ -1,7 +1,7 @@
 import openai
 
-# 设置 API Key，申请地址：https://platform.openai.com/account/api-keys
-openai.api_key = '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'
+# 设置 API Key，申请地址：https://platform.openai.com/account/api-keys.E
+openai.api_key = 'sk-HVmS11aASruIUqaqYnBUT3BlbkFJ0o1ANz9HC3CSxbg655b'
 # 设置组织，查看地址：https://platform.openai.com/account/org-settings
 # openai.organization = "xmu"
 # 请求模型
