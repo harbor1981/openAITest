@@ -1,8 +1,8 @@
 import requests
 
 # 调用 DALL-E API 生成图像
-prompt = "Generate an image of a cat wearing a hat"
-model = "image-alpha-001"
+prompt = "Generate an dall of a cat wearing a hat"
+model = "dall-alpha-001"
 key="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"
 response = requests.get(f"https://api.openai.com/v1/images/generations", params={
     "model": model,
