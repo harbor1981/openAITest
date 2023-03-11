@@ -40,7 +40,7 @@ def push():
         ]
     )
     result = completion.choices[0].message.content
-
+    print(result)
     returnMSG=json.dumps({"code":200,"msg":'',"data":result})
     return (returnMSG)
 
